@@ -1,7 +1,6 @@
 ORIGINAL FILES DESCTIRPTION
 
-file: CGMW_ICS_colour_codes.xlsx   --https://stratigraphy.org/chart
-
+file: CGMW_ICS_colour_codes.xlsx   --https://stratigraphy.org/chart\n
 file: ChronostratChart2023-09.pdf  --https://stratigraphy.org/chart
 
 file: chrono_indexes.png           --Strat index data (mnemonics for stratigraphic units). searched form internet
