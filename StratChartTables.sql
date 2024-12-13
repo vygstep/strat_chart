@@ -35,23 +35,20 @@ CREATE TABLE stratchart.strat_units (
 	standard_sort INT
 );
 
--- importing data from prepared tables
--- use one of the following paths:
---'/Volumes/GoogleDrive/My Drive/IRMC/sql/StratChart/strat_ranks.txt'
---"G:\My Drive\IRMC\sql\StratChart\strat_ranks.txt" 
+-- importing data from prepared tables. Fill *****/ with data source files
 COPY stratchart.ranks
-FROM 'G:\My Drive\IRMC\sql\StratChart\strat_ranks.txt'
+FROM '*****/strat_ranks.txt'
 DELIMITER ','
 CSV HEADER;
 
 
 COPY stratchart.data_sources
-FROM '/Volumes/GoogleDrive/My Drive/IRMC/sql/StratChart/strat_data_sources.txt'
+FROM '*****/strat_data_sources.txt'
 DELIMITER ','
 CSV HEADER;
 
 COPY stratchart.strat_units
-FROM '/Volumes/GoogleDrive/My Drive/IRMC/sql/StratChart/strat_units.txt'
+FROM '*****/strat_units.txt'
 DELIMITER ','
 CSV HEADER;
 
